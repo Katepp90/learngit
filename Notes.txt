@@ -13,6 +13,23 @@ git add
 git commit -m
 git status
 git diff
+
+Check: 
+git diff HEAD -- readme.txt
 git log --pretty=oneline
 git reflog
-git reset
+git reset --hard <versionid>
+
+"git add <file>..." to update what will be committed
+"git checkout -- <file>..." to discard changes in working directory
+"git reset HEAD <file>..." to unstage
+
+https:
+git remote add origin https://github.com/Katepp90/learngit.git
+git branch -M main
+git push -u origin main
+
+ssh:
+git remote add origin git@github.com:Katepp90/learngit.git
+git branch -M main
+git push -u origin main
