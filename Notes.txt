@@ -25,11 +25,11 @@ git reset --hard <versionid>
 "git reset HEAD <file>..." to unstage
 
 https:
-git remote add origin https://github.com/Katepp90/learngit.git
+git remote add origin https://github.com/<name>/learngit.git
 git branch -M main
 git push -u origin main
 
 ssh:
-git remote add origin git@github.com:Katepp90/learngit.git
+git remote add origin git@github.com:<name>/learngit.git
 git branch -M main
 git push -u origin main
